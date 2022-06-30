@@ -1,14 +1,11 @@
 import React from "react";
-import MenuItems from "./components/MenuItems";
-import "./App.css";
-import { items } from "./data/Data.js";
-
-
+import DisplayFoodItemsWithNutrition from "./components/DisplayFoodItemsWithNutrition";
 
 export default function App() {
   return (
-    <>
-      <MenuItems items={items}/>
-    </>
+    <div>
+      <DisplayFoodItemsWithNutrition />
+    </div>
   );
 }
+

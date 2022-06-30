@@ -1,12 +1,10 @@
 import React from "react";
 
-
 const Item = ({ item }) => {
-
   return (
-    <>
-       {item.name} 
-    </>
+    <div className="nav-link menu">
+     <a >{item.name}</a> 
+    </div>
   );
 };
 

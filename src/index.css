@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding:0.5%;
+  margin:0.5%;
+  color:darkgrey;
+  background-color:#f7fbfc;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul {list-style: none;}
+a {
+  text-decoration: none;
+  color:darkgrey;
+}
+a:hover {
+ font-weight: bold;
+  color: #f1b51c;
+}
+
+ .header {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f1b51c;
+   font-size: 16px;
+   padding:0.5%;
+ }
+
+ 
+ .bg-custom {
+     background-color: rgb(0, 109, 139) !important;
+ }
+
+ .menu {
+  background-color: rgb(0, 109, 139) !important;
+  color: #efb931;
+  padding-bottom: 0.5%;
+  padding-left: 0.5%;
+ 
+}
+
+.menu:hover {
+  font-weight: bold;
+  color: #f5b003;
+}
+.submenu {
+  background-color: rgb(0, 109, 139) !important;
+  margin-top:0%;
+  padding-bottom: 0.5%;
+  padding: 0.5%;
+}
+h2,h3 {color: #f5b003; }
